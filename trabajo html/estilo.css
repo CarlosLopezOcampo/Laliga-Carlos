@@ -1,0 +1,74 @@
+body{
+   background-color: #ffc1c1;}
+p {
+   color: rgb(255, 0, 0); 
+   font-size: 15px;
+   font-family: Arial, sans-serif;
+}
+h1{
+   color: rgb(255, 255, 255);
+   font-size: 25px;
+   background-color: rgb(255, 0, 0);
+   border: black;
+   border-width: 1px;
+   border-style: solid; 
+}
+h2{
+   color: white;
+   font-size: 18px;
+   background-color: red;
+   border: black;
+   border-width: 1px;
+   border-style: solid; 
+}
+h3{
+   color: rgb(255, 0, 0);
+   text-decoration-line: overline;
+   text-shadow: 3px  0px 0px rgb(255, 196, 196);
+   }
+li{
+   color: red ;
+   font-size: 15px;
+}
+article p{ font-size: 15px;
+}
+table{
+   color: crimson;
+   font-size: 14px;
+}
+nav{
+   background-color: red;
+   width: 80%;
+   max-width: 1000px;
+   margin: auto;
+   text-align: center;
+   border-radius: 10px;
+   list-style: none;
+   padding: 0px;
+}
+li :hover{  
+   color:rgb(0, 0, 0); 
+   background-color: #c013c0;   
+   border-radius: 10px; 
+}
+nav a{
+   color:rgb(255, 255, 255);
+   padding:20px;
+   display: inline-block;
+   font-size: 20px;
+   text-decoration: none;
+}
+.resaltado{
+   color:rgb(0, 23, 128);
+   border: 4px;
+   border-color:rgb(0, 68, 255);
+   border-style: solid;
+   border-radius: 5px;
+}
+.rojochillon{
+   color:rgb(152, 12, 245);
+   font-weight: bold;
+   text-decoration:underline;
+   text-decoration-color: rgb(226, 37, 157);
+   text-decoration-style: dotted;
+}
